@@ -4,6 +4,8 @@
 .idea/**
 node_modules/**
 audio/**
+node-scraper/node_modules/**
 
 .idea/
 audio/
+node-scraper/node_modules/
