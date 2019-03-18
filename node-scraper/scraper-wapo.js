@@ -3,7 +3,7 @@ console.log("does this run?");
 const rp = require('request-promise');
 const cheerio = require('cheerio');
 
-const url = 'https://www.washingtonpost.com/business/economy/concerns-about-global-economy-grow/2019/01/21/43d514a2-1dc8-11e9-9145-3f74070bbdb9_story.html';
+const url = 'https://www.washingtonpost.com';
 const $ = cheerio.load(url);
 
 rp(url)
